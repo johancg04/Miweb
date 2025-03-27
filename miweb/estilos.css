@@ -1,0 +1,168 @@
+header {
+    height: 75px;
+    padding: 15px;
+    background-color: #3366ff;
+    color: white;
+}
+
+#flex {
+    display: flex;
+}
+
+.icon {
+    margin-top: 15px;
+}
+
+.titulo {
+    margin-left: 20px;
+    font-family: "Monaco";
+}
+
+.buscador {
+    margin-left: 600px;
+    margin-top: 7.5px;
+}
+
+.input-buscar {
+    padding: 5px 200px 5px 10px;
+    border-style: inset;
+    border-radius: 6px;
+    border-color: #3366ff;
+}
+
+.bot-buscar {
+    padding: 5px;
+    background-color: white;
+    cursor: pointer;
+    border-style: inset;
+    border-radius: 6px;
+    border-color: #3366ff;
+}
+
+.bot-buscar:hover {
+    background-color: #3366ff;
+    color: white;
+    border-style: outset;
+    border: solid;
+    border-width: 1.5px;
+    border-color: white;
+}
+
+.contenido {
+    background-color: beige;
+}
+
+.contenidoI {
+    padding: 45px;
+    height: 300px;
+    justify-content: center;
+}
+
+.presentacion {
+    font-family: "Monaco";
+    width: 670px;
+    height: 275px;
+    text-align: justify;
+}
+
+div img {
+    height: 275px;
+    padding-left: 15px;
+}
+
+.contenidoF {
+    margin-top: 30px;
+    text-align: center;
+    padding: 30px;
+}
+
+div span {
+    font-size: 30px;
+    text-decoration: underline;
+    font-family: "Monaco";
+}
+
+table {
+    margin: auto;
+    margin-top: 30px;
+}
+
+table th {
+    padding: 5px 30px 5px 30px;
+    background-color: #3366ff;
+    color: white;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+table td {
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    padding: 10px;
+    align-items: center;
+}
+
+td a:link {
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+}
+
+td a:active {
+    color: black;
+}
+
+td a:visited {
+    color: black;
+    text-align: center;
+}
+
+td a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #3366ff;
+    font-size: 15px;
+}
+
+td img {
+    height: 175px;
+    cursor: pointer;
+}
+
+footer {
+    height: 90px;
+    padding: 30px;
+    background-color: #3366ff;
+    justify-items: center;
+    font-family: "Monaco";
+}
+
+footer a:link {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+footer a:visited {
+    color: white;
+}
+
+footer a:active {
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.enlaces {
+    padding: auto;
+    margin-left: 10px;
+    margin-right: 45px;
+}
